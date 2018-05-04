@@ -8,4 +8,4 @@ Feedback from submission:
 
 "Keys used for hashes are too unique -- there are no duplicate BLAST hits in the BLAST output. here are, however, duplicate crispr IDs, which might be better used as the key. That way, you will be able to ask, "What is the perfect BLAST hit (hash 1's value) for this crispr ID (key) and how many off-targets (hash 2's value) were found for it (key)?"
 
-"Rather than keep count of the number of occurrences of perfect BLAST hits, consider saving the converted BLAST hit as the value for %perfect_BLAST_hits (-2). That way, you don't have to re-process the line again in print_gff3_file(), a.k.a. re-split the line to convert it to gff3 format."
+"Rather than keep count of the number of occurrences of perfect BLAST hits, consider saving the converted BLAST hit as the value for %perfect_BLAST_hits. That way, you don't have to re-process the line again in print_gff3_file(), a.k.a. re-split the line to convert it to gff3 format."
